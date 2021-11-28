@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import Greetings from './Greetings/Greetings';
+// import App_function from './App_function';
+// import App from './App';
+// import Counter from './Counter/Counter';
+
+import LoginForm from './LoginForm/LoginForm';
+
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App_function name="Bartosz" /> */}
+    {/* <App name="AdvFeb" /> */}
+    {/* <Counter /> */}
+    <LoginForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
